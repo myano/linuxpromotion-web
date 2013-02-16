@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <title><? if cvars.title: print(cvars.title + cvars.title_separator) ?>Linux Promotion</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="google-site-verification" content="tu7IgEV1-mheweZED2rmbpRvyAjD1HvmfHhJWlk-DFE" />
+    <meta name="description" content="Linux Promotion project. Our goal is to promote Linux as much as possible."/>
+    <meta name="keywords" content="linux,power,powerful,raspberry,pi,alternative,operating,system,can,with,gnome,operating system,use linux,will never,much any,give linux,linux will never,pretty much any,people live linux,people not prohibited,gnome enlightenment,giving,operating system,linux promotion,much any,get full,pay any programmer,pages incomplete linux,gives freedom linux"/>
+    <!-- <meta name="author" content="Helena Bolan"/> -->
+    <link rel="stylesheet" href="@data_root@style.css"/>
+    <script type="text/javascript" src="@data_root@prefixfree.min.js"></script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38320274-1']);
+        _gaq.push(['_setDomainName', 'linuxpromotion.org']);
+        _gaq.push(['_trackPageview']);
+     
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics -->
+</head>
+<body>
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- End Facebook -->
+
+    <div style="color: #000; text-align: center; font-size: 150%; text-shadow: 0 0.1em 0.2em white; font-weight: bold;">
+        Under construction, some pages are incomplete.<br/>
+    </div>
+
+    <div id="page">
+        <div id="header">
+            <a id="logoLink" href="http://linuxpromotion.org/" title="Linux Promotion Project">
+                <div id="logo">
+                    <img class="ourLogo" src="@data_root@images/logo.png"/>
+                    <span class="ourName">Linux Promotion</span>
+                </div>
+            </a>
+
+            <div id="socialNetworks">
+                <!-- Facebook -->
+                <div class="socialButton facebook">
+                    <div class="fb-like" data-href="http://linuxpromotion.org" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="lucida grande"></div>
+                </div>
+                <br/>
+                <!-- Google+ -->
+                <div class="socialButton googlePlus">
+                    <div class="g-plusone" data-size="medium" data-href="http://linuxpromotion.org"></div>
+                    <script type="text/javascript">
+                    (function() {
+                      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                      po.src = 'https://apis.google.com/js/plusone.js';
+                      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                    })();
+                    </script>
+                </div>
+                <br/>
+                <!-- Twitter -->
+                <div class="socialButton twitter"> 
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://linuxpromotion.org" data-text="Read why you should try Linux at Linux Promotion!">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+            </div>
+        </div>
+
+        <div id="menu">
+            <ul class="menuList">
+                <li><a href="@page_root@index.html">Home</a></li>
+                <li><a href="@page_root@try-linux.html">Try Linux!</a></li>
+                <li><a href="@page_root@chat.html">Chat</a></li>
+                <!-- <li><a href="http://forum.linuxpromotion.org/">Forum</a></li> -->
+                <li><a href="@page_root@team.html">Our Team</a></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            #content#
+        </div>
+
+        <div id="footer">
+            <p>Copyright &copy; 2013 Linux Promotion Project</p>
+            <p>This page is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
+            <p><a href="https://github.com/lamefun/linuxpromotion-web">Site sources on GitHub</a> | <a href="mailto:webmaster@linuxpromotion.org">Contact webmaster</a> | <a href="mailto:hostmaster@linuxpromotion.org">Contact hostmaster</a></p>
+            <p>
+                Last modified at
+                <? 
+                    import datetime
+
+                    ZERO = datetime.timedelta(0)
+                    HOUR = datetime.timedelta(hours=1)
+
+                    class UTC(datetime.tzinfo):
+                        def utcoffset(self, dt):
+                            return ZERO
+
+                        def tzname(self, dt):
+                            return "UTC"
+
+                        def dst(self, dt):
+                            return ZERO
+
+                    utc = UTC()
+
+                    modified_date = datetime.datetime.fromtimestamp(cvars.content_mtime, utc)
+
+                    print(modified_date.strftime('%H:%M %d %h %Y UTC')) 
+                ?>
+            </p>
+            <p>
+                <small>This whole planet is a bizzare disaster. And somewhere far is the galactic core.</small>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

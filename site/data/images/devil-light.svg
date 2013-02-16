@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="15.32481"
+   height="17.540171"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="devil-light.svg"
+   inkscape:export-filename="/home/lamefun/Development/linuxpromotion/data/images/list-cons.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2987" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="17.998751"
+     inkscape:cx="3.7064196"
+     inkscape:cy="3.209731"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="false"
+     fit-margin-top="0.5"
+     fit-margin-left="0.5"
+     fit-margin-right="0.5"
+     fit-margin-bottom="0.5">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2993"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-5.3618372px"
+       originy="-3.2336758px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-5.3618372,4.7738478)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffd5d5;stroke:none"
+       id="path3836"
+       sodipodi:cx="6"
+       sodipodi:cy="6"
+       sodipodi:rx="4"
+       sodipodi:ry="4"
+       d="M 10,6 C 10,8.209139 8.209139,10 6,10 3.790861,10 2,8.209139 2,6 2,3.790861 3.790861,2 6,2 c 2.209139,0 4,1.790861 4,4 z"
+       transform="matrix(1.5297709,0,0,1.5297709,3.7501256,-3.0313855)" />
+    <path
+       style="fill:#ffd5d5;stroke:none"
+       d="m 18.608452,4.8039075 c 0.93305,-0.6471986 3.236191,-6.1694747 -0.41406,-9.0777553 0.941441,4.06585975 -0.54991,4.99319095 -3.784136,5.9577846"
+       id="path3838-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#ffd5d5;stroke:none"
+       d="M 7.5343718,5.2524201 C 6.6013206,4.6052216 4.1512862,-1.3367507 7.8015385,-4.2450313 6.8600961,-0.17917172 8.3514483,0.74815905 11.585673,1.7127539"
+       id="path3838-9-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#550000;stroke-width:1.0759809;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 11.755474,3.8821223 c 0,0.798406 -0.647238,1.4456434 -1.445643,1.4456434 -0.7984072,0 -1.4456434,-0.6472374 -1.4456434,-1.4456434"
+       id="path3919"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#550000;stroke-width:1.0759809;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 17.141579,3.8318786 c 0,0.7984054 -0.647236,1.4456427 -1.445643,1.4456427 -0.798405,0 -1.445641,-0.6472373 -1.445641,-1.4456427"
+       id="path3919-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+  </g>
+</svg>
